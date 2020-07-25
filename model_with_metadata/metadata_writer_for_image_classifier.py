@@ -61,17 +61,17 @@ class ModelSpecificInfo(object):
 
 
 _MODEL_INFO = {
-    "fmnist.tflite":
+    "rock_paper_scisor_model.tflite":
         ModelSpecificInfo(
-            name="Fashion mnist",
+            name="Rock paper scisor mobilenet",
             version="v1",
-            image_width=28,
-            image_height=28,
+            image_width=224,
+            image_height=224,
             image_min=0,
-            image_max=1,
-            mean=[0.5],
-            std=[0.5],
-            num_classes=10)
+            image_max=255,
+            mean=[127.5],
+            std=[127.5],
+            num_classes=3)
 }
 
 
