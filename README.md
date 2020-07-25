@@ -2,6 +2,8 @@
 
 ML kit ondevice inference 를 위한 tflite 모델에 Meta Data 를 추가하는 방법
 
+https://www.tensorflow.org/lite/convert/metadata
+
 1. Setup : Requirement.txt Install
 
 2. Custom 모델 업로드
